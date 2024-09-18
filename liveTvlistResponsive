@@ -1,0 +1,39 @@
+#channelsTab{
+	.cardScalable{
+		height: 100%;
+		width: 100%;
+	}
+	.cardImageContainer{
+		width: 70px;
+	}
+	
+	.card{
+		width: 100%;
+	}
+	
+	.cardFooter{
+		width: 300px;
+		height: 100%;
+		*{
+			height: 100%;
+		}
+		
+		.btnCardOptions{
+			height:90%;
+			.more_vert{
+				height: auto;
+			}
+		}
+	}
+	.visualCardBox{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		height: 70px;
+	}
+	
+
+	.cardText-first{
+		padding: 0px;
+	}
+}
